@@ -61,3 +61,9 @@ It takes 3 arguments:
 - **`location`** : this variable has *longitude* and *latitude* of the Venue.
 
 For information about the style guide for adding places, check this [link](https://support.foursquare.com/hc/en-us/articles/201064960-What-is-the-style-guide-for-adding-and-editing-places-) for community guidelines.
+
+you can call out to this method as follows:
+```java
+PLace new_McDonalds = request.createNewPlace("McDonalds - Test","1.23456,9.87654","4bf58dd8d48988d16e941735");
+```
+In case the `"McDonalds - Test" is a duplicate venue, nothing will be inserted and the function will return the existing Venue instead.`

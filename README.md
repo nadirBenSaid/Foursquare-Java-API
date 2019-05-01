@@ -66,4 +66,4 @@ you can call out to this method as follows:
 ```java
 Place new_McDonalds = request.createNewPlace("McDonalds - Test","1.23456,9.87654","4bf58dd8d48988d16e941735");
 ```
-In case the `"McDonalds - Test" is a duplicate venue, nothing will be inserted and the function will return the existing Venue instead.`
+In case the `"McDonalds - Test"` is a duplicate venue, nothing will be inserted and the function will return the existing Venue instead.`
